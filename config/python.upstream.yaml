@@ -1,0 +1,6 @@
+name: python-packages
+method: http://50.28.27.175/repos/building/
+suites: [lucid, maverick, natty, oneiric, precise, quantal]
+component: main
+architectures: [i386, amd64, source, armel]
+filter_formula: Package (% python-* )
